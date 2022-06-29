@@ -2,10 +2,9 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Catamaran', sans-serif;
-    }
+    font-family: 'Mulish', sans-serif;    }
 
-nav{background-color: black;}
+header{background-color: white;}
 
 
     .nav-bar{display: flex;
@@ -15,13 +14,13 @@ nav{background-color: black;}
     justify-content: space-between;}
     
      #logo{font-size: 36px; 
-        color:white;
-        font-family: 'Monoton', cursive;}
+        color:#318BA2;
+        }
     
     .site-logo>a{font-size: 30px;
          text-decoration: none;
-         color: white;
-        font-family: 'Monoton', cursive;}
+         color: #318BA2;
+         font-family: 'Rubik Moonrocks', cursive;}
     
     .site-nav-menu{display: flex;
         gap: 50px;
