@@ -443,7 +443,8 @@ color: #ffffff;}
                 flex-wrap: wrap;}
                 
                 
-                #about{flex-grow: 1;}
+                #about{flex-grow: 1;
+                width: 100%;}
                 
                 #socials{flex-grow: 1;
                 min-width: 200px;}
