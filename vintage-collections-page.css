@@ -141,6 +141,7 @@ nav{background-color: black;}
         .fa {
             padding: 13px;
             font-size: 10px;
+            border-radius: 50%;
             text-align: center;
             text-decoration: none;
           }
@@ -176,7 +177,9 @@ nav{background-color: black;}
             flex-wrap: wrap;}
             
             
-            #about{flex-grow: 1;}
+            #about{flex-grow: 1;
+            text-align: center;
+        width: 40%;}
             
             #socials{flex-grow: 1;
             min-width: 200px;}
@@ -295,6 +298,10 @@ nav{background-color: black;}
             color:aliceblue;
         width: 50%;}
 
+        #about{flex-grow: 1;
+            text-align: center;
+        width: 100%;}
+            }
         
         
   
@@ -351,4 +358,8 @@ nav{background-color: black;}
             margin: 5px auto;
             transition: all 0.4s ease-in-out;
             -webkit-transition: all 0.4s ease-in-out;}
-        }}
+
+            #about{flex-grow: 1;
+                text-align: center;
+            width: 100%;}
+        }
