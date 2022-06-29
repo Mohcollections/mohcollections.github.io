@@ -1,0 +1,461 @@
+*{padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Catamaran', sans-serif;
+    }
+
+header{background-color: white;}
+
+
+    .nav-bar{display: flex;
+        align-items: center;
+        padding-right: 20px;
+        padding-left: 20px;
+    justify-content: space-between;}
+    
+     #logo{font-size: 36px; 
+        color:#318BA2;
+        font-family: 'Monoton', cursive;}
+    
+    .site-logo>a{font-size: 30px;
+         text-decoration: none;
+         color: #318BA2;
+        font-family: 'Monoton', cursive;}
+    
+    .site-nav-menu{display: flex;
+        gap: 50px;
+        margin: 15px;
+        padding: 0;
+        list-style: none;
+        justify-content: space-between;}
+    
+    .nav-bar>ul>li{font-size: 20px;
+        padding-bottom: 0.25rem;
+        position: relative;
+    }
+    
+    .nav-bar>ul>li>a{color: #318BA2
+    }
+    
+    
+    .nav-bar>ul>li::before{
+       content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #318BA2;
+    transition: width 0.7s ease-in-out;
+    }
+    .nav-bar>ul>li:hover::before{
+        width: 100%;
+        
+    }
+    
+    .hamburger{display: none;}
+    
+
+    section{margin: 100px 10px 60px 10px;}
+
+    .welcome-section{display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+    min-width: 200px;}
+    
+    .welcome-texts{flex-grow: 1;
+        width: 20%;
+        padding: 20px;
+        color: black;
+        margin-left: 20px;
+    line-height: 1.5rem;
+    position: relative;
+    top: 100px;
+}
+    
+    .start{    color: white;
+        background: #318BA2;
+        border-radius: 10px;
+        border: none;
+        padding: 9px;
+        font-size: 22px;
+        position: relative;
+        top: 20px;
+        font-weight: 700;
+    }
+    
+    .start:hover{background-color:#318BA2;
+    color: #318BA2;}
+    
+    .welcome-image{flex-grow: 1;}
+    .welcome-text-header{text-align: left;
+        color: #318BA2;
+    padding: 5px;}
+    
+    
+        .img{height: auto;
+            width: 80%;
+            position: relative;
+            left: 60px;
+            vertical-align: middle;
+            border-style: none;}
+
+
+.Tee-shirt-section{margin:0px 0px 10px;
+background-color:black;
+overflow: hidden;
+color:white;
+height: 700px;}
+
+.Vintage-section{margin:0px 0px 10px;
+background-color: white;
+height: auto;
+color: black;}
+
+.product-image{
+    height:auto;
+    width: 38%;
+    position: relative;
+    right: 100px;}
+    
+.product-image1{
+    height: auto;
+    width: 30%;
+    float: right;
+    bottom: 363px;
+    position: relative;
+    left: 70px;}
+
+.product-texts{position: relative;
+    bottom: 300px;
+    left: 25%; 
+    line-height: 30px;
+    text-align: center;
+    width: 50%;}
+
+.order{text-align: center;
+margin-top: 50px;}
+
+
+.order>a{color: #ffffff;
+background-color: #318BA2;
+    padding: 15px 35px;
+    font-size: 25px;
+border-radius: 5px;}
+
+#spacer{height: 60px;}
+
+.section-texts{text-align: center;
+    width: 100%;
+line-height: 30px;}
+
+.section-header{color: #318BA2;}
+
+.section-image{display: flex;
+    justify-content: space-evenly;
+flex-wrap: wrap;}
+
+.product-image-vintage{
+    height: auto;
+    width: 20%;
+}
+
+.no-money{
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+color: aliceblue;
+box-shadow: 2px 1px 21px 20px rgb(0 103 245 / 30%);
+padding: 30px 10px;
+border-radius: 10px;
+align-items:center;
+margin: 30px;
+background-color: #318BA2;}
+
+.no-money-texts{flex-grow: 1;
+    width: 40px;
+}
+
+.form{flex-grow: 1;
+width: 0%;}
+
+.email-field{
+    border-radius: 6px;
+    background-color: hsla(0,0%,100%,1);
+    padding: 10px 24px;
+    margin: 10px 0px;
+    width: 50%;
+    height: 60px;}
+
+    .submit-button{ 
+        border-radius: 6px;
+        margin: 10px 44px;
+        padding: 10px 24px;
+        height: 50px;
+        background-color: black;
+    color:aliceblue;
+width: 28%;}
+
+
+
+footer{background-color:black ;
+color: white;}
+
+
+.foot-flex{display: flex;
+min-width: 200PX;
+padding: 10px;
+flex-wrap: wrap;}
+
+
+#about{flex-grow: 1;
+text-align: center;
+width: 40%;}
+
+#socials{flex-grow: 1;}
+
+
+#socials ul{display: flex;
+    list-style: none;
+    margin: 20px auto;
+    justify-content: space-evenly;}
+
+.fa {
+    padding: 13px;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.fa-whatsapp {
+    background: #05920c;
+    color: white;
+  }
+  .fa-instagram {
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    color: white;
+  }
+
+#nav-menu{flex-grow: 1;}
+
+#nav-menu ul{list-style: none;
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    gap: 10px;
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-evenly;
+    flex-direction: row;}
+
+#nav-menu li a{ text-decoration: none;
+color: #ffffff;}
+
+
+
+
+
+
+            /* Mobile view*/
+            @media (min-width: 300px) and (max-width: 768px){ 
+                .nav-bar>ul>li>a{color: #ffffff;
+                }
+                
+                header{height: 700px;}
+                
+                .welcome-section{display: flex;
+                    flex-wrap:wrap-reverse;
+                    gap: 40px;
+                min-width: 200px;}
+                
+                .welcome-texts{flex-grow: 1;
+                    width: 20%;
+                    height: 230px;
+                    margin-left: 0px;
+                    text-align: justify;
+                    padding: 10px;
+            position: initial;
+                }
+                .welcome-image{margin-left: 25px;}
+                .welcome-text-header{text-align: center;
+                padding: 5px;}
+                
+                .img{position: initial;
+                 }
+                 .four-row-flexbox{
+                 margin: 0px;
+                    height: 720px;}
+            
+                 section{margin: 80px 10px 0px 10px;}
+                   
+            
+            .hamburger{display: block;}
+            
+            .hamburger.active .bar:nth-child(2){
+                opacity: 0;
+            }
+            
+            .hamburger.active .bar:nth-child(3){
+                transform:translateY(-8px)  rotate(-45deg);
+            }
+            
+            .hamburger.active .bar:nth-child(1){
+                transform:translateY(8px)  rotate(45deg);
+            }
+            
+            .site-nav-menu{position: fixed;
+                flex-direction: column;
+                background: black;
+                right:  -150%;
+                top: 40px;
+                width: 80%;
+                border-radius: 10px;
+                opacity: 0.9;
+                gap:20px;
+                text-align: center;
+                transition: 0.3s;}
+            
+            .site-nav-menu >li{margin: 16px 0;}
+            .site-nav-menu >li>a{color: lightgray;}
+            
+            .site-nav-menu >li:active{padding: 3px;
+            border-bottom:2px solid #318BA2;}
+            
+            .site-nav-menu.active{right: -8%;}
+            
+            .bar{display: block;
+            height: 3px;
+            width: 25px;
+            background-color: #318BA2;
+            margin: 5px auto;
+            transition: all 0.4s ease-in-out;
+            -webkit-transition: all 0.4s ease-in-out;}
+
+
+            .Tee-shirt-section{margin:0px 0px 10px;
+                background-color:black;
+                overflow: hidden;
+                color:white;
+                height: auto;}
+                
+                .Vintage-section{margin:0px 0px 10px;
+                background-color: white;
+                height: auto;
+                color: black;}
+                
+                .product-image{
+                    height:auto;
+                    width: 100%;
+                    position: relative;
+                    right: 100px;}
+                    
+                .product-image1{display: none}
+                
+                .product-texts{position: relative;
+                    bottom: 150px;
+                    left: 10%; 
+                    line-height: 30px;
+                    text-align: center;
+                    width: 80%;}
+                
+                .order{text-align: center;
+                margin-top: 50px;}
+                
+                
+                .order>a{color: #ffffff;
+                background-color: #318BA2;
+                    padding: 15px 35px;
+                    font-size: 25px;
+                border-radius: 5px;}
+                
+                #spacer{height: 60px;}
+                
+                .section-texts{text-align: center;
+                    width: 70%;
+                    margin: 0 auto;
+                line-height: 30px;}
+                
+                .section-header{color: #318BA2;}
+                
+                .section-image{display: flex;
+                    justify-content: space-evenly;
+                    align-content: center;
+                    flex-direction: column;
+                    gap: 25px;
+
+                flex-wrap: wrap;}
+                
+                .product-image-vintage{
+                    height: auto;
+                    width: 70%;
+                }
+                
+                .no-money{
+                    display: flex;
+                    flex: 0 1 auto;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                color: aliceblue;
+                box-shadow: 2px 1px 21px 20px rgb(0 103 245 / 30%);
+                padding: 30px 10px;
+                border-radius: 10px;
+                align-items:center;
+                margin: 15px;
+                background-color: #318BA2;}
+                
+                .no-money-texts{flex-grow: 1;
+                    width: 100%;
+                    text-align: center;
+                } 
+                
+                .form{flex-grow: 1;
+                width: 100%;}
+                
+                .email-field{
+                    border-radius: 6px;
+                    background-color: hsla(0,0%,100%,1);
+                    padding: 10px 24px;
+                    margin: 10px 0px;
+                    width: 100%;
+                    height: 60px;}
+                
+                    .submit-button{ 
+                        border-radius: 6px;
+                        margin: 0 auto;     
+                        padding: 10px 24px;
+                    
+                        height: 50px;
+                        background-color: black;
+                    color:aliceblue;
+                width: 50%;}
+        
+                
+                
+                footer{background-color:black ;
+                color: white;}
+                
+                
+                .foot-flex{display: flex;
+                min-width: 200PX;
+                padding: 2  0px;
+                flex-wrap: wrap;}
+                
+                
+                #about{flex-grow: 1;}
+                
+                #socials{flex-grow: 1;
+                min-width: 200px;}
+
+
+        
+                
+                #nav-menu{flex-grow: 1;}
+            }  
+        
+                
+                
+                
+
+  
